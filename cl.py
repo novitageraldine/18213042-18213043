@@ -1,4 +1,4 @@
-# Tugas 1 Client dapat mengirimkan pesan berupa teks ke server dan server dapat menerima pesan dari client
+# Tugas 2 Client mengirimkan pesan ke server dan server dapat menerima dan membalasnya
 
 import socket
 import sys
