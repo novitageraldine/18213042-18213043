@@ -1,4 +1,4 @@
-# Tugas 2 Client dapat mengirimkan pesan berupa teks ke server dan server dapat menerima dan membalas pesan dari client
+# Tugas 1 Client dapat mengirimkan pesan berupa teks ke server dan server dapat menerima pesan dari client
 # 18213042-18213043
 Tugas Kelompok Pemrograman Integratif
 
