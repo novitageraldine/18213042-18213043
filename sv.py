@@ -1,3 +1,5 @@
+# Tugas 2 Client mengirimkan pesan ke server dan server dapat menerima dan membalasnya
+
 import SocketServer
 
 class MyTCPHandler(SocketServer.BaseRequestHandler):
