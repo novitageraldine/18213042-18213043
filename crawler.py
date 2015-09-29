@@ -8,7 +8,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class WebpagesDownloader {
+public class crawler {
    public static List<String> getHyperlinks(String url) {
       List<String> urls = new ArrayList<String>();
       try {
@@ -23,13 +23,14 @@ public class WebpagesDownloader {
       return urls;
    }
 
+   
    public static void printHyperlinks(List<String> links) {
       for(String link : links) {
          System.out.println("link: " + link);
       }
    }
 
-   public static void downloadWebpage(String link, String data) throws Exception {
+   public static void download(String link, String data) throws Exception {
       URL url = new URL(link);
       BufferedReader reader = new BufferedReader
       (new InputStreamReader(url.openStream()));
@@ -47,7 +48,7 @@ public class WebpagesDownloader {
    public static void main (String[] args) {
       int counter = 0;
       try {
-         downloadWebpage("http://www.sp.itb.ac.id/", "Data.html");      
+         download("http://www.sp.itb.ac.id/", "Home.html");      
       } catch(Exception e) {
          e.printStackTrace();
       }
@@ -56,7 +57,7 @@ public class WebpagesDownloader {
    
      for(String url : urls) {
          try {
-            downloadWebpage(url, "SubData" + counter + ".html");      
+            download(url, "SubData" + counter + ".html");      
          } catch(Exception e) {
             e.printStackTrace();
          }      
