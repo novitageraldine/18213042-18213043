@@ -1,4 +1,4 @@
-//Tugas Ke-3 PROGIF
+//Web Crawler
 
   import re, urllib, urllib2, socket
 
