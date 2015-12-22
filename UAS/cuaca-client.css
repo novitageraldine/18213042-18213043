@@ -1,0 +1,41 @@
+.tablecuaca {
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: bold ;
+  transform: translate(7px,-59px);
+}
+
+.isitablecuaca {
+	font-family: Dosis;
+	font-size: 12px;
+	color: #f4511e;
+}
+
+th {
+    background-color: #f4511e;
+    color: white;
+    border-style: solid;
+  	border-color: #f4511e;
+    border-width: 5px;
+}
+
+td {
+    padding: 5px;
+    border-style: solid;
+  	border-color: #f4511e;
+	  border-width: 5px;
+}
+
+  .logoalfian {
+  	  transform: translate(9px, 13px);
+  	  text-align: center;
+      color: #f4511e;
+      font-size: 120px;
+  }
+  .logoalfian1 {
+  	  transform: translate(46px, -116px);
+  	  text-align: center;
+      color: #F4922C;
+      font-size: 50px;
+  }
+ 
